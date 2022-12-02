@@ -1,0 +1,164 @@
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/eot/IRANSansWeb\(FaNum\)_Bold.eot');
+    src: url('/fonts/IRANSansWeb/woff/IRANSansWeb\(FaNum\)_Bold.woff') format("woff"),
+         url('/fonts/IRANSansWeb/ttf/IRANSansWeb\(FaNum\)_Bold.ttf') format("truetype"),
+         url('/fonts/IRANSansWeb/woff2/IRANSansWeb\(FaNum\).woff2') format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/eot/IRANSansWeb\(FaNum\)_UltraLight.eot');
+    src: url('/fonts/IRANSansWeb/woff/IRANSansWeb\(FaNum\)_Light.woff') format("woff"),
+         url('/fonts/IRANSansWeb/ttf/IRANSansWeb\(FaNum\)_UltraLight.ttf') format("truetype"),
+         url('/fonts/IRANSansWeb/woff2/IRANSansWeb\(FaNum\)_UltraLight.woff2') format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/eot/IRANSansWeb\(FaNum\)_Light.eot');
+    src: url('/fonts/IRANSansWeb/woff/IRANSansWeb\(FaNum\)_Light.woff') format("woff"),
+         url('/fonts/IRANSansWeb/ttf/IRANSansWeb\(FaNum\)_Light.ttf') format("truetype"),
+         url('/fonts/IRANSansWeb/woff2/IRANSansWeb\(FaNum\)_Light.woff2') format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/eot/IRANSansWeb\(FaNum\).eot');
+    src: url('/fonts/IRANSansWeb/woff/IRANSansWeb\(FaNum\).woff') format("woff"),
+         url('/fonts/IRANSansWeb/ttf/IRANSansWeb\(FaNum\).ttf') format("truetype"),
+         url('/fonts/IRANSansWeb/woff2/IRANSansWeb\(FaNum\).woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/woff/IRANSansWeb\(FaNum\)_Medium.woff') format("woff"),
+         url('/fonts/IRANSansWeb/ttf/IRANSansWeb\(FaNum\)_Medium.ttf') format("truetype"),
+         url('/fonts/IRANSansWeb/woff2/IRANSansWeb\(FaNum\)_Medium.woff2') format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('/fonts/IRANSansWeb/ttf/IRANSansWeb_Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IRANSansWeb, Tahoma;
+}
+
+.section2-box-top {
+    gap: 20px;
+}
+
+.section2-box-top > span > i {
+    font-size: 40px;
+}
+
+.section3, .section5 {
+    background-color: #f9f9f9;
+    padding: 0 50px;
+}
+
+.section3-right-text {
+    gap: 20px;
+    text-align: justify;
+}
+
+.section4-icon {
+    font-size: 45px;
+}
+
+.section4-numbers {
+    font-size: 40px;
+}
+
+.section5-icon-box {
+    gap: 10px;
+}
+
+.section5-icon-box > span > i {
+    font-size: 20px;
+}
+
+/* responsive costumize */
+
+/*laptop L*/
+@media only screen and (min-width: 1440px) {
+
+}
+
+/*laptop N*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .section4-numbers {
+        font-size: 30px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .section4-numbers {
+        font-size: 25px;
+    }
+}
+
+/*mobile L*/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .section1-text {
+        background: #00000066;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section4-numbers {
+        font-size: 20px;
+    }
+}
+
+/*mobile M*/
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .section1-text {
+        background: #00000066;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section4-numbers {
+        font-size: 20px;
+    }
+}
+/*mobile S*/
+@media only screen and (min-width: 0px) and (max-width: 374px) {
+    .section1-text {
+        background: #00000066;
+        width: 100%;
+        height: 100%;
+        }
+
+        .section1-text > h1 {
+            font-size: 20px;
+        }
+
+        .section1-text > p {
+            font-size: 15px;
+        }
+
+        .section1-text > button {
+            font-size: 10px;
+        }
+
+        .section4-numbers {
+            font-size: 20px;
+        }
+
+}
